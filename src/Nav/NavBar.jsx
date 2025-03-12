@@ -9,7 +9,6 @@ export default function NavBar() {
     <Navbar className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
-          {" "}
           <i class="fa-solid fa-shop brand-icon"></i> AgroHut
         </Navbar.Brand>
         <Navbar.Toggle />
