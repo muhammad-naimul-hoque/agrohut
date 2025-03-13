@@ -1,0 +1,22 @@
+.category-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.category-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.category-label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #4CAF50;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}

@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Banner from "./TopBanner/Banner";
 import NavBar from "./Nav/Navbar";
+import Categories from "./Categories/ProductCategories";
+import ProductCategories from "./Categories/ProductCategories";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +14,8 @@ function App() {
     <>
       <NavBar></NavBar>
       <Banner></Banner>
+      <ProductCategories></ProductCategories>
+      {/* <Categories></Categories> */}
     </>
   );
 }
