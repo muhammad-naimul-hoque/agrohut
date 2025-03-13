@@ -20,7 +20,7 @@ export default function NavBar() {
             <Nav.Link>Blog</Nav.Link>
             <Nav.Link>Contact</Nav.Link>
             <Nav.Link>
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-cart-shopping">C</i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
